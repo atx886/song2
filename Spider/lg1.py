@@ -12,7 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-file = './Spider/15.xlsx'
+file = './Spider/16.xlsx'
 max_a = load_workbook(file).active.max_row
 print(max_a)
 
@@ -89,7 +89,7 @@ def zz(d, mm):
     # 输入号码
     d.find_element_by_xpath(
         '/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-view[2]/uni-view/uni-view/uni-view[2]/uni-view[2]/uni-input/div/input').send_keys(
-        16521637755)
+        18094011187)
     rw()
     # 输入积分
     d.find_element_by_xpath(
